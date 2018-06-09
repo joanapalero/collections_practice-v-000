@@ -19,7 +19,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  kesha_array = 
+  arrays = []
+  array.each.do |kesha_word|
+    kesha_word[2] = "$"
+    arrays.push(kesha_word)
+  end
+  arrays
 end
 
 def find_a()

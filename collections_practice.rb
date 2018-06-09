@@ -29,7 +29,7 @@ end
 
 def find_a(array)
   array.select do |words|
-    word.start_with?("a")
+    words.start_with?("a")
   end
 end
 

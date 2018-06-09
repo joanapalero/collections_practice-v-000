@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
   arrays = []
-  array.each.do |kesha_word|
+  array.each do |kesha_word|
     kesha_word[2] = "$"
     arrays.push(kesha_word)
   end
